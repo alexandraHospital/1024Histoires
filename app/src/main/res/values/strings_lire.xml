@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete">Delete</string>
+    <string name="page_count">Page count</string>
+    <string name="boutonCouv_lire">Read</string>
+    <string name="boutonCouv_reprendre">Resume</string>
+    <string name="titre_mes_livres">My Library</string>
+
+    <!-- Fenetre de dialog supprimer un objet -->
+    <string name="confirm_title">Confirm</string>
+    <string name="confirm_message">Do you really want to delete this item?</string>
+
+    <!-- Fenetre de dialog afficher les objets -->
+    <string name="list_objet_titre">My bag</string>
+    <string name="button_end">End</string>
+    <string name="full_inventory">Your inventory is full, please drop at leat one item to continue</string>
+
+	<string name="confirm_quit">Do you want really quit?</string>
+</resources>

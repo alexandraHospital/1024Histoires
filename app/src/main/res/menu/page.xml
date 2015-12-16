@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app.PageActivity" >
+
+    
+    <item android:title="@string/ajouterChoix" android:id="@+id/ajouterChoix"></item> 
+    <item android:title="@string/ajouterObjet" android:id="@+id/ajouterObjet"></item> 
+    <item android:title="@string/enregistrer" android:id="@+id/enregistrerPage"></item>
+
+</menu>

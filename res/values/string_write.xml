@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titre_livre">Book title</string>
+    <string name="creer">Create</string>
+    <string name="image">Picture </string>
+    <string name="parcourir">Browse</string>
+    <string name="modifier">Modify </string>
+    <string name="title_activity_page_couverture">PageCouverture</string>
+    <string name="nomAuteur">Author name* </string>
+    <string name="titreLivre">Title* </string>
+    <string name="synopsis">Edit synopsis</string>
+    <string name="objetSup">item deleted in the next page</string>
+    <string name="title_activity_choix">ChoixActivity</string>
+    <string name="commencerCreationLivre">Start !</string>
+    <string name="title_activity_menu_creation_pages">MenuCreationPages</string>
+    <string name="avertissementCreation">Fill out the "Title" and "Author name" fields. </string>
+    <string name="title_activity_page">PageActivity</string>
+    <string name="remplirTextePage">Write the text of the page</string>
+    <string name="enregistrerPage">Save page</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="ajouter">Add</string>
+    <string name="supprimerChoix">Are you sure you want to delete that choice ?</string>
+    <string name="supprimerPage">Are you sure you want to delete that page ? 
+        it will also delete all the choices in that page and all choices leading to that page </string>
+
+    <string name="ajouterUnePage">Add a page</string>
+    <string name="modifierPageCouverture">Modify the cover book</string>
+    <string name="supprimerLivre">Delete the book</string>
+    <string name="supprimerTousLesLivres">Delete all books</string>
+    <string name="supprimerToutesLesPages">Delete all pages</string>
+    <string name="menuPrincipal">Main menu</string>
+    <string name="verifSuppressionPages">Are you sure you want to delete all the pages of the book ? </string>
+    <string name="verifSuppressionLivre">Are you sure you want to delete that book ? </string>
+    <string name="verifSuppressionTousLivres">Are you sure you want to delete all the books ? </string>
+    <string name="verifSuppressionObjet">Are you sure you want to delete the item ? </string>
+    <string name="ajouterChoix">Add a choice</string>
+    <string name="ajouterObjet">Add an item</string>
+    <string name="enregistrer">Save</string>
+    <string name="texteDansChoix">Text in the choice : </string>
+    <string name="maxCaracteres50">50 characters or lower</string>
+    <string name="pageCible">Next page : </string>
+    <string name="objetRequis">Item required : </string>
+    <string name="objetObtenu">Item obtained in the page : </string>
+    <string name="indicePage">Click on the menu to add a page</string>
+    <string name="indiceChoix">Click on the menu to add a choice</string>
+    <string name="choixMax">4 choices or lower.</string>
+    <string name="annuler">Cancel</string>
+    <string name="requiert">Requires : </string>
+    <string name="abandonObj">Item creation canceled</string>
+    <string name="editBook">Edit a book</string>
+    <string name="dejaUtilise">Text already used</string>
+    <string name="objetObtenu2">Item obtained : </string>
+    <string name="maxCaracteres20">20 characters or lower</string>
+    
+</resources>

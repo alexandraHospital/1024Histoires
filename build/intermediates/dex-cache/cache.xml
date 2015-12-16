@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/HDD-WORK/Work Space/Android/Android - 1024 Histoires/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Volumes/HDD-WORK/Work Space/Android/Android - 1024 Histoires/app/build/intermediates/pre-dexed/debug/classes-a192fb01ddd04e5735dffa06fb85c5cb0db7e87c.jar" />
+    </item>
+    <item
+        jar="/Volumes/HDD-WORK/Work Space/Android/Android - 1024 Histoires/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Volumes/HDD-WORK/Work Space/Android/Android - 1024 Histoires/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-edd3fd01ede05cecb34643fc9e11ca68fc03b093.jar" />
+    </item>
+    <item
+        jar="/Applications/eclipse/android-sdk-macosx 11.28.58/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Volumes/HDD-WORK/Work Space/Android/Android - 1024 Histoires/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-f6f4202afaa8290adad6e65f301a9f47d4db24e7.jar" />
+    </item>
+
+</items>

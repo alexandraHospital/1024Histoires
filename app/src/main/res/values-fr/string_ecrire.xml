@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titre_livre">Titre du livre</string>
+    <string name="creer">Créer</string>
+    <string name="image">Image </string>
+    <string name="parcourir">Parcourir</string>
+    <string name="modifier">Modifier </string>
+    <string name="title_activity_page_couverture">PageCouverture</string>
+    <string name="nomAuteur">Nom d\'auteur* </string>
+    <string name="titreLivre">Titre* </string>
+    <string name="synopsis">Éditer le synopsis</string>
+    <string name="objetSup">Objet supprimé dans la page cible</string>
+    <string name="title_activity_choix">ChoixActivity</string>
+    <string name="commencerCreationLivre">Commencer !</string>
+    <string name="title_activity_menu_creation_pages">MenuCreationPages</string>
+    <string name="avertissementCreation">Remplissez les champs "titre" et "auteur"</string>
+    <string name="title_activity_page">PageActivity</string>
+    <string name="remplirTextePage">Remplissez le contenu de la page</string>
+    <string name="enregistrerPage">Enregistrer la page</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="supprimerChoix">Êtes-vous sûr de vouloir supprimer ce choix ?</string>
+    <string name="supprimerPage">Êtes-vous sûr de vouloir supprimer cette page ? 
+        Cela supprimera également les choix contenus dans cette page, ainsi que ceux qui mènent à cette page. </string>
+
+    <string name="ajouterUnePage">Ajouter une page</string>
+    <string name="modifierPageCouverture">Modifier la page de couverture</string>
+    <string name="supprimerLivre">Supprimer le livre</string>
+    <string name="supprimerTousLesLivres">Supprimer tous les livres</string>
+    <string name="supprimerToutesLesPages">Supprimer toutes les pages</string>
+    <string name="menuPrincipal">Menu principal</string>
+    <string name="verifSuppressionPages">Êtes\-vous sûr de vouloir supprimer toutes les pages de ce livre ? </string>
+    <string name="verifSuppressionLivre">Êtes\-vous sûr de vouloir supprimer ce livre ? </string>
+    <string name="verifSuppressionTousLivres">Êtes\-vous sûr de vouloir supprimer tous les livres ? </string>
+    <string name="verifSuppressionObjet">Êtes\-vous sûr de vouloir supprimer cet objet ? </string>
+    <string name="ajouterChoix">Ajouter un choix</string>
+    <string name="ajouterObjet">Ajouter un objet</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="texteDansChoix">Texte dans le choix : </string>
+    <string name="maxCaracteres50">Maximum 50 caractères</string>
+    <string name="pageCible">Page cible : </string>
+    <string name="objetRequis">Objet requis : </string>
+    <string name="objetObtenu">Objet obtenu dans la page : </string>
+    <string name="indicePage">Cliquez sur le menu pour ajouter une page</string>
+    <string name="indiceChoix">Cliquez sur le menu pour ajouter un choix</string>
+    <string name="choixMax">Maximum 4 choix.</string>
+    <string name="abandonObj">Création d\'objet abandonnée</string>
+    <string name="objetObtenu2">Objet obtenu : </string>
+    <string name="dejaUtilise">Texte déjà utilisé</string>
+    <string name="editBook">Éditer un livre</string>
+    <string name="annuler">Annuler</string>
+    <string name="requiert">Requiert : </string>
+    <string name="maxCaracteres20">Maximum 20 caractères</string>
+    
+</resources>

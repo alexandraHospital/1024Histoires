@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app.ListLivresActivity" >
+
+    
+    <item android:title="@string/supprimerTousLesLivres" android:id="@+id/supprimerLivres"></item>
+    
+</menu>

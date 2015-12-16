@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="searchpop_title">Recherche</string>
+    
+	<string name="search_title">Titre</string>
+	<string name="search_author">Auteur</string>
+	<string name="search_synopsis">Synopsis</string>
+	<string name="search_content">Contenu</string>
+
+	<string name="search_keyword">Mots-clés</string>
+	<string name="search_in">dans</string>
+	<string name="lauch_search">Lancer la recherche</string>
+</resources>

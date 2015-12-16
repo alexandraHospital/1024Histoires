@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radio_moyen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page_old"
+    android:orientation="vertical"
+    tools:context="com.example.app.PageCouverture"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/remplirTitre"
+            style="@style/texteTitreImportant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/titreLivre" />
+
+        <EditText
+            android:id="@+id/titre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:inputType="textCapSentences"
+            android:lines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/remplirNomAuteur"
+            style="@style/texteTitreImportant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/nomAuteur" />
+
+        <EditText
+            android:id="@+id/nomAuteur"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+           	android:inputType="textCapSentences"
+            android:lines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/remplirSynopsis"
+            style="@style/texteTitreImportant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/synopsis" />
+
+        <EditText
+            android:id="@+id/synopsis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="top"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLength="500"
+            android:lines="7"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/image_couverture"
+            style="@style/texteTitreImportant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/image" />
+
+        <Button
+            android:id="@+id/parcourir"
+            style="@style/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="@string/parcourir" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/image_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:paddingBottom="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/allerMenuCreerPages"
+        style="@style/boutonNormal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/commencerCreationLivre" />
+
+    <ImageView
+        android:id="@+id/apercu"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/empty" />
+
+</LinearLayout><!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/layout/page_couverture.xml -->

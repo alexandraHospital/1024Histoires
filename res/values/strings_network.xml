@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="connected_devices">Connected devices</string>
+    <string name="button_scan">scan</string>
+    <string name="waiting_for_connection">Waiting for connection</string>
+    <string name="alert_dialog_info_title">Information</string>
+    <string name="alert_dialog_info">Here is the list of the paired devices. If you want to send your book to a device which does not appear in the list, you have to pair in the bluetooth parameters.</string>
+    <string name="book_received">You received a book!</string>
+    <string name="book_sent">Book sent!</string>
+    <string name="failure">An error occured during the sending</string>
+	<string name="failure_ip">Impossible to resolve the host</string>
+	<string name="localIp">Your local IP address</string>
+    <string name="sendbook">Send a book</string>
+    <string name="send">Send</string>
+    	
+    <string name="sendby">Send by</string>
+    <string name="receiveby">Receive by</string>
+    <string name="no_conenction">You are not conenected to a network</string>
+   	<string name="info">Information</string>
+    <string name="instructionsend">Enter here the IP address of your friend</string>
+</resources>

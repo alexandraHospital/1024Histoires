@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <string name="setting_title">Paramètres</string>
+    <string name="label_sound">Son</string>
+    <string name="label_defaut_author">Nom par défaut</string>
+    <string name="do_tuto">Tutoriel</string>
+    <string name="lettrine">Lettrine</string>
+    <string name="size">Taille</string>
+    <string name="small">Petit</string>
+    <string name="medium">Moyen</string>
+    <string name="large">Grand</string>
+    <string name="save">Enregistrer</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <string name="boutonMenu_lire">Read</string>
+    <string name="boutonMenu_ecrire">Workbench</string>
+    <string name="boutonMenu_recevoir">Receive</string>
+    <string name="boutonMenu_param">Settings</string>
+</resources>

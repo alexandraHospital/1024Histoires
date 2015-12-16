@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+    </style>
+    <style name="AppThemeM" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="boutonNormal">
+       <item name="android:background">@drawable/b</item>
+       <item name="android:textSize">15sp</item>
+       <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="button" parent="AppBaseTheme">
+         <item name="android:textColor">#FFFFFF</item>
+         <item name="android:background">@drawable/b</item>
+         
+    </style>
+    <style name="synopsis">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

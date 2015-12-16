@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ListLireActivity" >
+
+     <TextView
+         android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:text="@string/titre_mes_livres"
+         android:layout_marginBottom="15dp"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+    <ListView
+        android:id="@+id/add"
+        android:layout_width="fill_parent"
+        android:layout_height="349dp"
+        android:layout_above="@+id/recherche"
+        android:layout_below="@+id/title" />
+
+    <ImageButton
+        android:id="@+id/recherche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:src="@drawable/search" />
+
+</RelativeLayout><!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/layout/activity_list_livres.xml -->

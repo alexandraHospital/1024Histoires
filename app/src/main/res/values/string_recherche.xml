@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="searchpop_title">Search</string>
+    
+	<string name="search_title">Title</string>
+	<string name="search_author">Author</string>
+	<string name="search_synopsis">Synopsis</string>
+	<string name="search_content">Content</string>
+
+	<string name="search_keyword">Keywords</string>
+	<string name="search_in">in</string>
+	<string name="lauch_search">Search</string>
+</resources>

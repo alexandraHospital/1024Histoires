@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <color android:name="trans">#00000000</color>
+    
+</selector>
+<!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/color/color.xml -->

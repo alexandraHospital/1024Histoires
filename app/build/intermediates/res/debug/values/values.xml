@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="abandonObj">Item creation canceled</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_about_share.xml -->
+    <eat-comment/>
+    <string name="about_title">About</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="ajouter">Add</string>
+    <string name="ajouterChoix">Add a choice</string>
+    <string name="ajouterObjet">Add an item</string>
+    <string name="ajouterUnePage">Add a page</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="alert_dialog_info">Here is the list of the paired devices. If you want to send your book to a device which does not appear in the list, you have to pair in the bluetooth parameters.</string>
+    <string name="alert_dialog_info_title">Information</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="alert_return">Return</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="annuler">Cancel</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="app_name">1024 Stories</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="avertissementCreation">Fill out the "Title" and "Author name" fields. </string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="book_received">You received a book!</string>
+    <string name="book_sent">Book sent!</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="boutonCouv_lire">Read</string>
+    <string name="boutonCouv_reprendre">Resume</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_menu.xml -->
+    <eat-comment/>
+    <string name="boutonMenu_ecrire">Workbench</string>
+    <string name="boutonMenu_lire">Read</string>
+    <string name="boutonMenu_param">Settings</string>
+    <string name="boutonMenu_recevoir">Receive</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="button_end">End</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="button_scan">scan</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="choixMax">4 choices or lower.</string>
+    <string name="commencerCreationLivre">Start !</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="confirm_message">Do you really want to delete this item?</string>
+    <string name="confirm_quit">Do you want really quit?</string>
+    <string name="confirm_title">Confirm</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="connected_devices">Connected devices</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="creer">Create</string>
+    <string name="dejaUtilise">Text already used</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="delete">Delete</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_param.xml -->
+    <eat-comment/>
+    <string name="do_tuto">Tutorial</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="editBook">Edit a book</string>
+    <string name="enregistrer">Save</string>
+    <string name="enregistrerPage">Save page</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="failure">An error occured during the sending</string>
+    <string name="failure_ip">Impossible to resolve the host</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="full_inventory">Your inventory is full, please drop at leat one item to continue</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="image">Picture </string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="img">image</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="indiceChoix">Click on the menu to add a choice</string>
+    <string name="indicePage">Click on the menu to add a page</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="info">Information</string>
+    <string name="instructionsend">Enter here the IP address of your friend</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_items.xml -->
+    <eat-comment/>
+    <string name="item_amethyste">Amethyst</string>
+    <string name="item_axe">Axe</string>
+    <string name="item_book">Book</string>
+    <string name="item_bow">Bow</string>
+    <string name="item_bread">Bread</string>
+    <string name="item_bullet">Bullet</string>
+    <string name="item_camera">Camera</string>
+    <string name="item_cd">CD</string>
+    <string name="item_cheese">Cheese</string>
+    <string name="item_chocolate">Chocolate</string>
+    <string name="item_coins">Coins</string>
+    <string name="item_crown">Crown</string>
+    <string name="item_diskette">Diskette</string>
+    <string name="item_documents">Documents</string>
+    <string name="item_glasses">Glasses</string>
+    <string name="item_gun">Gun</string>
+    <string name="item_ham">Ham</string>
+    <string name="item_hamburger">Hamburger</string>
+    <string name="item_hdd">HDD</string>
+    <string name="item_healthpotion">Health potion</string>
+    <string name="item_key">Key</string>
+    <string name="item_knife">Knife</string>
+    <string name="item_lamp">Lamp</string>
+    <string name="item_lyre">Lyre</string>
+    <string name="item_magicpotion">Magic potion</string>
+    <string name="item_magnifyingglass">Magnifying glass</string>
+    <string name="item_map">Map</string>
+    <string name="item_mirror">Mirror</string>
+    <string name="item_mobilephone">Mobile phone</string>
+    <string name="item_muffin">Muffin</string>
+    <string name="item_none">None</string>
+    <string name="item_pencil">Pencil</string>
+    <string name="item_pizza">Pizza</string>
+    <string name="item_poele">Pan</string>
+    <string name="item_poison">Poison</string>
+    <string name="item_ring">Ring</string>
+    <string name="item_rose">Rose</string>
+    <string name="item_ruby">Ruby</string>
+    <string name="item_shield">Shield</string>
+    <string name="item_soda">Soda</string>
+    <string name="item_strawberry">Strawberry</string>
+    <string name="item_sword">Sword</string>
+    <string name="item_totem">Totem</string>
+    <string name="item_usbkey">USB Key</string>
+    <string name="item_vigorpotion">Vigor potion</string>
+    <string name="item_vinyl">Vinyl</string>
+    <string name="item_violin">Violin</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_param.xml -->
+    <eat-comment/>
+    <string name="label_defaut_author">Default name</string>
+    <string name="label_sound">Sound</string>
+    <string name="large">Large</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_recherche.xml -->
+    <eat-comment/>
+    <string name="lauch_search">Search</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_about_share.xml -->
+    <eat-comment/>
+    <string name="legend_dev_team">Team</string>
+    <string name="legend_for">for</string>
+    <string name="legend_supervisor">Supervisor</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_param.xml -->
+    <eat-comment/>
+    <string name="lettrine">Initial letter</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="list_objet_titre">My bag</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="localIp">Your local IP address</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="maxCaracteres20">20 characters or lower</string>
+    <string name="maxCaracteres50">50 characters or lower</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_param.xml -->
+    <eat-comment/>
+    <string name="medium">Medium</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="menuPrincipal">Main menu</string>
+    <string name="modifier">Modify </string>
+    <string name="modifierPageCouverture">Modify the cover book</string>
+    <string name="moins">-</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="no">No</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="no_conenction">You are not conenected to a network</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="nomAuteur">Author name* </string>
+    <string name="objetObtenu">Item obtained in the page : </string>
+    <string name="objetObtenu2">Item obtained : </string>
+    <string name="objetRequis">Item required : </string>
+    <string name="objetSup">item deleted in the next page</string>
+    <string name="pageCible">Next page : </string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="page_count">Page count</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="parcourir">Browse</string>
+    <string name="plus">+</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="receiveby">Receive by</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="remplirTextePage">Write the text of the page</string>
+    <string name="requiert">Requires : </string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_param.xml -->
+    <eat-comment/>
+    <string name="save">Save</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_recherche.xml -->
+    <eat-comment/>
+    <string name="search_author">Author</string>
+    <string name="search_content">Content</string>
+    <string name="search_in">in</string>
+    <string name="search_keyword">Keywords</string>
+    <string name="search_synopsis">Synopsis</string>
+    <string name="search_title">Title</string>
+    <string name="searchpop_title">Search</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="send">Send</string>
+    <string name="sendbook">Send a book</string>
+    <string name="sendby">Send by</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_param.xml -->
+    <eat-comment/>
+    <string name="setting_title">Settings</string>
+    <string name="size">Size</string>
+    <string name="small">Small</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="supprimerChoix">Are you sure you want to delete that choice ?</string>
+    <string name="supprimerLivre">Delete the book</string>
+    <string name="supprimerPage">Are you sure you want to delete that page ? 
+        it will also delete all the choices in that page and all choices leading to that page </string>
+    <string name="supprimerTousLesLivres">Delete all books</string>
+    <string name="supprimerToutesLesPages">Delete all pages</string>
+    <string name="synopsis">Edit synopsis</string>
+    <string name="texteDansChoix">Text in the choice : </string>
+    <string name="title_activity_choix">ChoixActivity</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/title_string.xml -->
+    <eat-comment/>
+    <string name="title_activity_creer_livre">CreerLivreActivity</string>
+    <string name="title_activity_ecoute_bluetooth">RecevoirLivreActivity</string>
+    <string name="title_activity_ecrire_list_livre">EcrireListLivre</string>
+    <string name="title_activity_edit_page">EditPageActivity</string>
+    <string name="title_activity_envois_livre">EnvoisLivreActivity</string>
+    <string name="title_activity_lire">LireActivity</string>
+    <string name="title_activity_list_pages">ListePagesActivity</string>
+    <string name="title_activity_menu_activity">Menu_activity</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="title_activity_menu_creation_pages">MenuCreationPages</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/title_string.xml -->
+    <eat-comment/>
+    <string name="title_activity_menu_tuto">MenuTutoActivity</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="title_activity_page">PageActivity</string>
+    <string name="title_activity_page_couverture">PageCouverture</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/title_string.xml -->
+    <eat-comment/>
+    <string name="title_activity_tuto">TutoActivity</string>
+    <string name="title_couverture_activity">CouvertureActivity</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="title_share">Share me</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="titreLivre">Title* </string>
+    <string name="titre_livre">Book title</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_lire.xml -->
+    <eat-comment/>
+    <string name="titre_mes_livres">My Library</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="tmp">tmp</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_tuto.xml -->
+    <eat-comment/>
+    <string name="tuto_precedent">Previous</string>
+    <string name="tuto_quit">Quit</string>
+    <string name="tuto_read">Read</string>
+    <string name="tuto_receivebluetooth">Receive Bluetooth</string>
+    <string name="tuto_receivewifi">Receive Wifi</string>
+    <string name="tuto_sendbluetooth">Send Bluetooth</string>
+    <string name="tuto_sendwifi">Send Wifi</string>
+    <string name="tuto_suivant">Next</string>
+    <string name="tuto_write">Write</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string_write.xml -->
+    <eat-comment/>
+    <string name="verifSuppressionLivre">Are you sure you want to delete that book ? </string>
+    <string name="verifSuppressionObjet">Are you sure you want to delete the item ? </string>
+    <string name="verifSuppressionPages">Are you sure you want to delete all the pages of the book ? </string>
+    <string name="verifSuppressionTousLivres">Are you sure you want to delete all the books ? </string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/strings_network.xml -->
+    <eat-comment/>
+    <string name="waiting_for_connection">Waiting for connection</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="yes">Yes</string>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+    </style>
+    <style name="AppThemeM" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_livre.xml -->
+    <eat-comment/>
+    <style name="auteur">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="boutonNormal">
+       <item name="android:background">@drawable/b</item>
+       <item name="android:textSize">15sp</item>
+       <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="button" parent="AppBaseTheme">
+         <item name="android:textColor">#FFFFFF</item>
+         <item name="android:background">@drawable/b</item>
+         
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_choix.xml -->
+    <eat-comment/>
+    <style name="idChoix">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_page.xml -->
+    <eat-comment/>
+    <style name="idPage">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+	    <item name="android:windowBackground">@drawable/bg</item>
+	</style>
+    <style name="synopsis">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_page.xml -->
+    <eat-comment/>
+    <style name="texte">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_choix.xml -->
+    <eat-comment/>
+    <style name="texteChoix">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_texte_normal.xml -->
+    <eat-comment/>
+    <style name="texteNormal">
+        <item name="android:textSize">15sp</item>
+        </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_important.xml -->
+    <eat-comment/>
+    <style name="texteTitreImportant">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#88421D </item>
+    </style>
+    <!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/values/style_livre.xml -->
+    <eat-comment/>
+    <style name="titre">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_none">Aucun</string>
+    <string name="item_amethyste">Améthyste</string>
+    <string name="item_ring">Anneau</string>
+    <string name="item_camera">Appareil photo</string>
+    <string name="item_bow">Arc</string>
+    <string name="item_shield">Bouclier</string>
+    <string name="item_map">Carte</string>
+    <string name="item_cd">CD</string>
+    <string name="item_chocolate">Chocolat</string>
+    <string name="item_key">Clé</string>
+    
+    <string name="item_usbkey">Clé USB</string>
+    <string name="item_crown">Couronne</string>
+    <string name="item_knife">Couteau</string>
+    <string name="item_pencil">Crayon</string>
+    <string name="item_hdd">Disque dur</string>
+    <string name="item_diskette">Disquette</string>
+    <string name="item_documents">Documents</string>
+    <string name="item_bullet">Douille</string>
+    <string name="item_sword">Épée</string>
+    <string name="item_strawberry">Fraise</string>
+    
+    <string name="item_cheese">Fromage</string>
+    <string name="item_axe">Hâche</string>
+    <string name="item_hamburger">Hamburger</string>
+    <string name="item_ham">Jambon</string>
+    <string name="item_lamp">Lampe</string>
+    <string name="item_book">Livre</string>
+    <string name="item_magnifyingglass">Loupe</string>
+    <string name="item_glasses">Lunettes</string>
+    <string name="item_lyre">Lyre</string>
+    <string name="item_mirror">Miroir</string>
+    
+    <string name="item_muffin">Muffin</string>
+    <string name="item_bread">Pain</string>
+    <string name="item_coins">Pièces</string>
+   	<string name="item_gun">Pistolet</string>
+    <string name="item_pizza">Pizza</string>
+    <string name="item_magicpotion">Potion de magie</string>
+    <string name="item_healthpotion">Potion de santé</string>
+    <string name="item_vigorpotion">Potion de vigueur</string>
+    <string name="item_poison">Poison</string>
+    <string name="item_rose">Rose</string>
+    
+    <string name="item_ruby">Rubis</string>
+    <string name="item_soda">Soda</string>
+    <string name="item_totem">Totem</string>
+    <string name="item_mobilephone">Téléphone portable</string>
+    <string name="item_vinyl">Vinyle</string>
+    <string name="item_violin">Violon</string>
+    <string name="item_poele">Poêle</string>
+    
+</resources>

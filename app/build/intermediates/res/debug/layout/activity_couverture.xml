@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".CouvertureActivity" >
+
+
+   
+          
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/tmp"
+        style="@style/titre"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+           
+    <TextView
+        android:id="@+id/auteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        style="@style/auteur"
+        android:text="@string/tmp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/lire"
+        android:layout_below="@+id/auteur"
+        android:layout_centerHorizontal="true" >
+    
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imange_couverture"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+            	android:padding="1dp"
+                android:src="@drawable/empty" 
+               	/>
+        
+            <TextView
+		        android:id="@+id/nb_pages"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginBottom="10dp"
+		        android:text="@string/tmp" />
+            
+            
+		    <TextTools.TextViewEx
+		        android:id="@+id/synopsis"
+		        style="@style/synopsis"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="@string/tmp" />
+		   </LinearLayout>
+		   
+	</ScrollView>
+
+    <Button
+        android:id="@+id/lire"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/scrollView1"
+        android:contentDescription="@string/img"
+        android:text="@string/boutonCouv_lire" />
+
+    <Button
+        android:id="@+id/reprendre"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/img"
+        android:text="@string/boutonCouv_reprendre" />
+
+    <ImageButton
+        android:id="@+id/send_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_alignTop="@+id/title"
+        android:background="@null"
+        android:src="@drawable/send" />
+
+    
+</RelativeLayout>
+<!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/layout/activity_couverture.xml -->

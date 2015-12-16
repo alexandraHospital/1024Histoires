@@ -1,0 +1,624 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/Volumes/HDD-WORK/Work Space/Android/Android - 1024 Histoires
+                      -                     - -    -         
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/Android - 1024 Histoires.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* _classpath
+* _project
+* app/
+* app/build.gradle
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/.DS_Store
+* app/src/main/java/._.DS_Store
+* app/src/main/java/Listener/
+* app/src/main/java/Listener/ParcourirListener.java
+* app/src/main/java/TextTools/
+* app/src/main/java/TextTools/TextJustifyUtils.java
+* app/src/main/java/TextTools/TextViewEx.java
+* app/src/main/java/activites/
+* app/src/main/java/activites/.DS_Store
+* app/src/main/java/activites/MenuCreationPages.java
+* app/src/main/java/activites/ObjetActivity.java
+* app/src/main/java/activites/PageActivity.java
+* app/src/main/java/activites/PageCouverture.java
+* app/src/main/java/activity/
+* app/src/main/java/activity/ParametreActivity.java
+* app/src/main/java/adapters/
+* app/src/main/java/adapters/.DS_Store
+* app/src/main/java/adapters/ChoixAdapterEcrire.java
+* app/src/main/java/adapters/LivreAdapter.java
+* app/src/main/java/adapters/PageNonSauvegardeesAdapter.java
+* app/src/main/java/couverture/
+* app/src/main/java/couverture/BluetoothSendListener.java
+* app/src/main/java/couverture/CouvertureActivity.java
+* app/src/main/java/couverture/LireListener.java
+* app/src/main/java/couverture/WifiSendListener.java
+* app/src/main/java/databasetest/
+* app/src/main/java/databasetest/Choix.java
+* app/src/main/java/databasetest/DBManager.java
+* app/src/main/java/databasetest/DatabaseHandler.java
+* app/src/main/java/databasetest/Livre.java
+* app/src/main/java/databasetest/Objet.java
+* app/src/main/java/databasetest/Page.java
+* app/src/main/java/databasetest/Parametre.java
+* app/src/main/java/ecoute_bluetooth/
+* app/src/main/java/ecoute_bluetooth/BackListener.java
+* app/src/main/java/ecoute_bluetooth/BackMenuListener.java
+* app/src/main/java/ecoute_bluetooth/EcouteBluetoothAsyncTask.java
+* app/src/main/java/ecoute_bluetooth/RecevoirLivreActivity.java
+* app/src/main/java/ecoute_bluetooth/ReplaceBookListener.java
+* app/src/main/java/ecoute_bluetooth/VoirLivreListener.java
+* app/src/main/java/ecoute_wifi/
+* app/src/main/java/ecoute_wifi/EcouteWifiAsyncTask.java
+* app/src/main/java/ecoute_wifi/GetIpPublicAddressAsyncTask.java
+* app/src/main/java/ecoute_wifi/RecevoirLivreWifiActivity.java
+* app/src/main/java/envoi_bluetooth/
+* app/src/main/java/envoi_bluetooth/BroadCastReceiverPerso.java
+* app/src/main/java/envoi_bluetooth/DeviceAdapter.java
+* app/src/main/java/envoi_bluetooth/EnvoisLivreBluetoothActivity.java
+* app/src/main/java/envoi_bluetooth/OnDeviceClickListener.java
+* app/src/main/java/envoi_bluetooth/PopupReceiveListener.java
+* app/src/main/java/envoi_bluetooth/ScanListener.java
+* app/src/main/java/envoi_wifi/
+* app/src/main/java/envoi_wifi/EnvoisLivreWifiActivity.java
+* app/src/main/java/envoi_wifi/EnvoisWifiAsyncTask.java
+* app/src/main/java/lire_liste_livres/
+* app/src/main/java/lire_liste_livres/ClickLivreListener.java
+* app/src/main/java/lire_liste_livres/ListLivresActivity.java
+* app/src/main/java/lire_liste_livres/LivreAdapter.java
+* app/src/main/java/lire_liste_livres/LongClickLivreListener.java
+* app/src/main/java/lire_liste_livres/SearchListener.java
+* app/src/main/java/lire_liste_livres/YesDelListener.java
+* app/src/main/java/lire_liste_livres/YesSearchListener.java
+* app/src/main/java/lire_livre/
+* app/src/main/java/lire_livre/ConfirmQuitListener.java
+* app/src/main/java/lire_livre/InventoryListener.java
+* app/src/main/java/lire_livre/LeaveClickListener.java
+* app/src/main/java/lire_livre/LireActivity.java
+* app/src/main/java/lire_livre/LireChangePageListener.java
+* app/src/main/java/lire_livre/ObjectAdapter.java
+* app/src/main/java/lire_livre/RemoveItemClickListener.java
+* app/src/main/java/liste_livres/
+* app/src/main/java/liste_livres/ClickLivreListener.java
+* app/src/main/java/liste_livres/ListLivresActivity.java
+* app/src/main/java/liste_livres/LivreAdapter.java
+* app/src/main/java/liste_livres/LongClickLivreListener.java
+* app/src/main/java/liste_livres/SearchListener.java
+* app/src/main/java/liste_livres/YesDelListener.java
+* app/src/main/java/liste_livres/YesSearchListener.java
+* app/src/main/java/menu/
+* app/src/main/java/menu/ListenerAbout.java
+* app/src/main/java/menu/ListenerBluetooth.java
+* app/src/main/java/menu/ListenerQRCode.java
+* app/src/main/java/menu/ListenerRead.java
+* app/src/main/java/menu/ListenerSetting.java
+* app/src/main/java/menu/ListenerTuto.java
+* app/src/main/java/menu/ListenerWifi.java
+* app/src/main/java/menu/ListenerWireless.java
+* app/src/main/java/menu/ListenerWrite.java
+* app/src/main/java/menu/MainActivity.java
+* app/src/main/java/menu/MenuTutoActivity.java
+* app/src/main/java/menu/QuitListener.java
+* app/src/main/java/menu/TutoActivity.java
+* app/src/main/java/pack/
+* app/src/main/java/pack/ChoixPack.java
+* app/src/main/java/pack/LivrePack.java
+* app/src/main/java/pack/PagePack.java
+* app/src/main/res/
+* app/src/main/res/.DS_Store
+* app/src/main/res/color/
+* app/src/main/res/color/color.xml
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/.DS_Store
+* app/src/main/res/drawable-mdpi/._qr.png
+* app/src/main/res/drawable-mdpi/bg.jpg
+* app/src/main/res/drawable-mdpi/bg_slide.png
+* app/src/main/res/drawable-mdpi/bluetooth.png
+* app/src/main/res/drawable-mdpi/bluetooth_logo.png
+* app/src/main/res/drawable-mdpi/button_disable.png
+* app/src/main/res/drawable-mdpi/button_enable.png
+* app/src/main/res/drawable-mdpi/empty.png
+* app/src/main/res/drawable-mdpi/info.png
+* app/src/main/res/drawable-mdpi/inventory.png
+* app/src/main/res/drawable-mdpi/inventory_empty.png
+* app/src/main/res/drawable-mdpi/inventory_full.png
+* app/src/main/res/drawable-mdpi/lierre.png
+* app/src/main/res/drawable-mdpi/logo.png
+* app/src/main/res/drawable-mdpi/qr.png
+* app/src/main/res/drawable-mdpi/ruban_disable.png
+* app/src/main/res/drawable-mdpi/ruban_enable.png
+* app/src/main/res/drawable-mdpi/search.png
+* app/src/main/res/drawable-mdpi/send.png
+* app/src/main/res/drawable-mdpi/share.png
+* app/src/main/res/drawable-mdpi/titre.png
+* app/src/main/res/drawable-mdpi/wifi.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/.DS_Store
+* app/src/main/res/drawable/b.9.png
+* app/src/main/res/drawable/page_old.jpg
+* app/src/main/res/drawable/page_old2.jpg
+* app/src/main/res/drawable/poubelle.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_choix.xml
+* app/src/main/res/layout/activity_couverture.xml
+* app/src/main/res/layout/activity_ecoute_blue_tooth.xml
+* app/src/main/res/layout/activity_ecoute_wifi.xml
+* app/src/main/res/layout/activity_ecrire_list_livre.xml
+* app/src/main/res/layout/activity_envois_livre_bluetooth.xml
+* app/src/main/res/layout/activity_envois_livre_wifi.xml
+* app/src/main/res/layout/activity_lire.xml
+* app/src/main/res/layout/activity_list_livres.xml
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/activity_menu_tuto.xml
+* app/src/main/res/layout/activity_objets_page.xml
+* app/src/main/res/layout/activity_page.xml
+* app/src/main/res/layout/activity_parametre.xml
+* app/src/main/res/layout/activity_tuto.xml
+* app/src/main/res/layout/ajouter_objet.xml
+* app/src/main/res/layout/alert_dialog_recherche.xml
+* app/src/main/res/layout/alertdialog_about.xml
+* app/src/main/res/layout/alertdialog_my_items.xml
+* app/src/main/res/layout/alertdialog_qrcode.xml
+* app/src/main/res/layout/alertdialog_scan.xml
+* app/src/main/res/layout/alertdialog_wireless_send.xml
+* app/src/main/res/layout/avertissement_suppression_livre.xml
+* app/src/main/res/layout/avertissement_suppression_pages.xml
+* app/src/main/res/layout/checkbox_afficher_message.xml
+* app/src/main/res/layout/choix_adapter.xml
+* app/src/main/res/layout/choix_adapter_ecrire.xml
+* app/src/main/res/layout/devices_adapter.xml
+* app/src/main/res/layout/livre_adapter.xml
+* app/src/main/res/layout/menu_creation_pages.xml
+* app/src/main/res/layout/objet_adapter.xml
+* app/src/main/res/layout/page_adapter.xml
+* app/src/main/res/layout/page_couverture.xml
+* app/src/main/res/layout/page_non_sauvegardee_adapter.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/choix.xml
+* app/src/main/res/menu/livres.xml
+* app/src/main/res/menu/menu_creation_pages.xml
+* app/src/main/res/menu/menu_tuto.xml
+* app/src/main/res/menu/page.xml
+* app/src/main/res/menu/page_couverture.xml
+* app/src/main/res/menu/tuto.xml
+* app/src/main/res/raw/
+* app/src/main/res/raw/.DS_Store
+* app/src/main/res/raw/._envoyer_wifi4.png
+* app/src/main/res/raw/._envoyer_wifi5.png
+* app/src/main/res/raw/._envoyer_wifi6.png
+* app/src/main/res/raw/amethyste.png
+* app/src/main/res/raw/anneau.png
+* app/src/main/res/raw/arc.png
+* app/src/main/res/raw/bouclier.png
+* app/src/main/res/raw/carte.png
+* app/src/main/res/raw/cd.png
+* app/src/main/res/raw/chocolat.png
+* app/src/main/res/raw/cle_usb.png
+* app/src/main/res/raw/couronne.png
+* app/src/main/res/raw/couteau.png
+* app/src/main/res/raw/crayon.png
+* app/src/main/res/raw/disque_dur.png
+* app/src/main/res/raw/disquette.png
+* app/src/main/res/raw/documents.png
+* app/src/main/res/raw/douille.png
+* app/src/main/res/raw/envoyer_wifi4.png
+* app/src/main/res/raw/envoyer_wifi5.png
+* app/src/main/res/raw/envoyer_wifi6.png
+* app/src/main/res/raw/epee.png
+* app/src/main/res/raw/fermerlivre.mp3
+* app/src/main/res/raw/fraise.png
+* app/src/main/res/raw/fromage.png
+* app/src/main/res/raw/hache.png
+* app/src/main/res/raw/hamburger.png
+* app/src/main/res/raw/jambon.png
+* app/src/main/res/raw/key.png
+* app/src/main/res/raw/lampehuile.png
+* app/src/main/res/raw/livre.png
+* app/src/main/res/raw/loupe.png
+* app/src/main/res/raw/lunettes.png
+* app/src/main/res/raw/lyre.png
+* app/src/main/res/raw/miroir.png
+* app/src/main/res/raw/muffin.png
+* app/src/main/res/raw/pain.png
+* app/src/main/res/raw/photo.png
+* app/src/main/res/raw/pieces.png
+* app/src/main/res/raw/pistolet.png
+* app/src/main/res/raw/pizza.png
+* app/src/main/res/raw/poele.png
+* app/src/main/res/raw/poison.png
+* app/src/main/res/raw/portable.png
+* app/src/main/res/raw/potion_mana.png
+* app/src/main/res/raw/potion_sante.png
+* app/src/main/res/raw/potion_vigueur.png
+* app/src/main/res/raw/rien.png
+* app/src/main/res/raw/rose.png
+* app/src/main/res/raw/rubis.png
+* app/src/main/res/raw/screen_0.png
+* app/src/main/res/raw/screen_1.png
+* app/src/main/res/raw/screen_10.png
+* app/src/main/res/raw/screen_100.png
+* app/src/main/res/raw/screen_101.png
+* app/src/main/res/raw/screen_102.png
+* app/src/main/res/raw/screen_103.png
+* app/src/main/res/raw/screen_11.png
+* app/src/main/res/raw/screen_12.png
+* app/src/main/res/raw/screen_13.png
+* app/src/main/res/raw/screen_14.png
+* app/src/main/res/raw/screen_15.png
+* app/src/main/res/raw/screen_150.png
+* app/src/main/res/raw/screen_151.png
+* app/src/main/res/raw/screen_2.png
+* app/src/main/res/raw/screen_200.png
+* app/src/main/res/raw/screen_201.png
+* app/src/main/res/raw/screen_202.png
+* app/src/main/res/raw/screen_250.png
+* app/src/main/res/raw/screen_251.png
+* app/src/main/res/raw/screen_252.png
+* app/src/main/res/raw/screen_253.png
+* app/src/main/res/raw/screen_254.png
+* app/src/main/res/raw/screen_255.png
+* app/src/main/res/raw/screen_256.png
+* app/src/main/res/raw/screen_257.png
+* app/src/main/res/raw/screen_258.png
+* app/src/main/res/raw/screen_259.png
+* app/src/main/res/raw/screen_260.png
+* app/src/main/res/raw/screen_261.png
+* app/src/main/res/raw/screen_262.png
+* app/src/main/res/raw/screen_263.png
+* app/src/main/res/raw/screen_264.png
+* app/src/main/res/raw/screen_265.png
+* app/src/main/res/raw/screen_266.png
+* app/src/main/res/raw/screen_267.png
+* app/src/main/res/raw/screen_268.png
+* app/src/main/res/raw/screen_269.png
+* app/src/main/res/raw/screen_270.png
+* app/src/main/res/raw/screen_271.png
+* app/src/main/res/raw/screen_272.png
+* app/src/main/res/raw/screen_273.png
+* app/src/main/res/raw/screen_274.png
+* app/src/main/res/raw/screen_275.png
+* app/src/main/res/raw/screen_276.png
+* app/src/main/res/raw/screen_3.png
+* app/src/main/res/raw/screen_4.png
+* app/src/main/res/raw/screen_5.png
+* app/src/main/res/raw/screen_50.png
+* app/src/main/res/raw/screen_51.png
+* app/src/main/res/raw/screen_52.png
+* app/src/main/res/raw/screen_53.png
+* app/src/main/res/raw/screen_54.png
+* app/src/main/res/raw/screen_55.png
+* app/src/main/res/raw/screen_56.png
+* app/src/main/res/raw/screen_6.png
+* app/src/main/res/raw/screen_7.png
+* app/src/main/res/raw/screen_8.png
+* app/src/main/res/raw/screen_9.png
+* app/src/main/res/raw/soda.png
+* app/src/main/res/raw/supprimer.wav
+* app/src/main/res/raw/totem.png
+* app/src/main/res/raw/tournerpage.mp3
+* app/src/main/res/raw/vinyle.png
+* app/src/main/res/raw/violon.png
+* app/src/main/res/values-en/
+* app/src/main/res/values-en/string.xml
+* app/src/main/res/values-en/string_about_share.xml
+* app/src/main/res/values-en/string_items.xml
+* app/src/main/res/values-en/string_recherche.xml
+* app/src/main/res/values-en/string_tuto.xml
+* app/src/main/res/values-en/string_write.xml
+* app/src/main/res/values-en/strings_lire.xml
+* app/src/main/res/values-en/strings_menu.xml
+* app/src/main/res/values-en/strings_network.xml
+* app/src/main/res/values-en/strings_param.xml
+* app/src/main/res/values-fr/
+* app/src/main/res/values-fr/string.xml
+* app/src/main/res/values-fr/string_about_share.xml
+* app/src/main/res/values-fr/string_ecrire.xml
+* app/src/main/res/values-fr/string_items.xml
+* app/src/main/res/values-fr/string_recherche.xml
+* app/src/main/res/values-fr/string_tuto.xml
+* app/src/main/res/values-fr/strings_lire.xml
+* app/src/main/res/values-fr/strings_menu.xml
+* app/src/main/res/values-fr/strings_network.xml
+* app/src/main/res/values-fr/strings_param.xml
+* app/src/main/res/values-sw600dp/
+* app/src/main/res/values-sw600dp/dimens.xml
+* app/src/main/res/values-sw720dp-land/
+* app/src/main/res/values-sw720dp-land/dimens.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/string.xml
+* app/src/main/res/values/string_about_share.xml
+* app/src/main/res/values/string_items.xml
+* app/src/main/res/values/string_recherche.xml
+* app/src/main/res/values/string_tuto.xml
+* app/src/main/res/values/string_write.xml
+* app/src/main/res/values/strings_lire.xml
+* app/src/main/res/values/strings_menu.xml
+* app/src/main/res/values/strings_network.xml
+* app/src/main/res/values/strings_param.xml
+* app/src/main/res/values/style_choix.xml
+* app/src/main/res/values/style_important.xml
+* app/src/main/res/values/style_livre.xml
+* app/src/main/res/values/style_page.xml
+* app/src/main/res/values/style_texte_normal.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/res/values/title_string.xml
+* build.gradle
+* doc/
+* doc/.DS_Store
+* doc/._.DS_Store
+* doc/Listener/
+* doc/Listener/ParcourirListener.html
+* doc/Listener/package-frame.html
+* doc/Listener/package-summary.html
+* doc/Listener/package-tree.html
+* doc/TextTools/
+* doc/TextTools/TextJustifyUtils.html
+* doc/TextTools/TextViewEx.html
+* doc/TextTools/package-frame.html
+* doc/TextTools/package-summary.html
+* doc/TextTools/package-tree.html
+* doc/activites/
+* doc/activites/MenuCreationPages.html
+* doc/activites/ObjetActivity.html
+* doc/activites/PageActivity.html
+* doc/activites/PageCouverture.html
+* doc/activites/package-frame.html
+* doc/activites/package-summary.html
+* doc/activites/package-tree.html
+* doc/activity/
+* doc/activity/ParametreActivity.html
+* doc/activity/package-frame.html
+* doc/activity/package-summary.html
+* doc/activity/package-tree.html
+* doc/adapters/
+* doc/adapters/ChoixAdapterEcrire.html
+* doc/adapters/LivreAdapter.html
+* doc/adapters/PageNonSauvegardeesAdapter.html
+* doc/adapters/package-frame.html
+* doc/adapters/package-summary.html
+* doc/adapters/package-tree.html
+* doc/allclasses-frame.html
+* doc/allclasses-noframe.html
+* doc/com/
+* doc/com/.DS_Store
+* doc/com/._.DS_Store
+* doc/com/example/
+* doc/com/example/.DS_Store
+* doc/com/example/._.DS_Store
+* doc/com/example/histoires/
+* doc/com/example/histoires/BuildConfig.html
+* doc/com/example/histoires/R.attr.html
+* doc/com/example/histoires/R.dimen.html
+* doc/com/example/histoires/R.drawable.html
+* doc/com/example/histoires/R.html
+* doc/com/example/histoires/R.id.html
+* doc/com/example/histoires/R.layout.html
+* doc/com/example/histoires/R.menu.html
+* doc/com/example/histoires/R.raw.html
+* doc/com/example/histoires/R.string.html
+* doc/com/example/histoires/R.style.html
+* doc/com/example/histoires/package-frame.html
+* doc/com/example/histoires/package-summary.html
+* doc/com/example/histoires/package-tree.html
+* doc/constant-values.html
+* doc/couverture/
+* doc/couverture/BluetoothSendListener.html
+* doc/couverture/CouvertureActivity.html
+* doc/couverture/LireListener.html
+* doc/couverture/WifiSendListener.html
+* doc/couverture/package-frame.html
+* doc/couverture/package-summary.html
+* doc/couverture/package-tree.html
+* doc/databasetest/
+* doc/databasetest/Choix.html
+* doc/databasetest/DBManager.html
+* doc/databasetest/DatabaseHandler.html
+* doc/databasetest/Livre.html
+* doc/databasetest/Objet.html
+* doc/databasetest/Page.html
+* doc/databasetest/Parametre.html
+* doc/databasetest/package-frame.html
+* doc/databasetest/package-summary.html
+* doc/databasetest/package-tree.html
+* doc/deprecated-list.html
+* doc/ecoute_bluetooth/
+* doc/ecoute_bluetooth/BackListener.html
+* doc/ecoute_bluetooth/BackMenuListener.html
+* doc/ecoute_bluetooth/EcouteBluetoothAsyncTask.html
+* doc/ecoute_bluetooth/RecevoirLivreActivity.html
+* doc/ecoute_bluetooth/ReplaceBookListener.html
+* doc/ecoute_bluetooth/VoirLivreListener.html
+* doc/ecoute_bluetooth/package-frame.html
+* doc/ecoute_bluetooth/package-summary.html
+* doc/ecoute_bluetooth/package-tree.html
+* doc/ecoute_wifi/
+* doc/ecoute_wifi/EcouteWifiAsyncTask.html
+* doc/ecoute_wifi/GetIpPublicAddressAsyncTask.html
+* doc/ecoute_wifi/RecevoirLivreWifiActivity.html
+* doc/ecoute_wifi/package-frame.html
+* doc/ecoute_wifi/package-summary.html
+* doc/ecoute_wifi/package-tree.html
+* doc/envoi_bluetooth/
+* doc/envoi_bluetooth/BroadCastReceiverPerso.html
+* doc/envoi_bluetooth/DeviceAdapter.html
+* doc/envoi_bluetooth/EnvoisLivreBluetoothActivity.html
+* doc/envoi_bluetooth/OnDeviceClickListener.html
+* doc/envoi_bluetooth/PopupReceiveListener.html
+* doc/envoi_bluetooth/ScanListener.html
+* doc/envoi_bluetooth/package-frame.html
+* doc/envoi_bluetooth/package-summary.html
+* doc/envoi_bluetooth/package-tree.html
+* doc/envoi_wifi/
+* doc/envoi_wifi/EnvoisLivreWifiActivity.html
+* doc/envoi_wifi/EnvoisWifiAsyncTask.html
+* doc/envoi_wifi/package-frame.html
+* doc/envoi_wifi/package-summary.html
+* doc/envoi_wifi/package-tree.html
+* doc/help-doc.html
+* doc/index-all.html
+* doc/index.html
+* doc/lire_liste_livres/
+* doc/lire_liste_livres/ClickLivreListener.html
+* doc/lire_liste_livres/ListLivresActivity.html
+* doc/lire_liste_livres/LivreAdapter.html
+* doc/lire_liste_livres/LongClickLivreListener.html
+* doc/lire_liste_livres/SearchListener.html
+* doc/lire_liste_livres/YesDelListener.html
+* doc/lire_liste_livres/YesSearchListener.html
+* doc/lire_liste_livres/package-frame.html
+* doc/lire_liste_livres/package-summary.html
+* doc/lire_liste_livres/package-tree.html
+* doc/lire_livre/
+* doc/lire_livre/.DS_Store
+* doc/lire_livre/._.DS_Store
+* doc/lire_livre/ConfirmQuitListener.html
+* doc/lire_livre/InventoryListener.html
+* doc/lire_livre/LeaveClickListener.html
+* doc/lire_livre/LireActivity.html
+* doc/lire_livre/LireChangePageListener.html
+* doc/lire_livre/ObjectAdapter.html
+* doc/lire_livre/RemoveItemClickListener.html
+* doc/lire_livre/class-use/
+* doc/lire_livre/class-use/LireActivity.html
+* doc/lire_livre/package-frame.html
+* doc/lire_livre/package-summary.html
+* doc/lire_livre/package-tree.html
+* doc/lire_livre/package-use.html
+* doc/liste_livres/
+* doc/liste_livres/ClickLivreListener.html
+* doc/liste_livres/ListLivresActivity.html
+* doc/liste_livres/LivreAdapter.html
+* doc/liste_livres/LongClickLivreListener.html
+* doc/liste_livres/SearchListener.html
+* doc/liste_livres/YesDelListener.html
+* doc/liste_livres/YesSearchListener.html
+* doc/liste_livres/package-frame.html
+* doc/liste_livres/package-summary.html
+* doc/liste_livres/package-tree.html
+* doc/menu/
+* doc/menu/.DS_Store
+* doc/menu/._.DS_Store
+* doc/menu/ListenerAbout.html
+* doc/menu/ListenerBluetooth.html
+* doc/menu/ListenerQRCode.html
+* doc/menu/ListenerRead.html
+* doc/menu/ListenerSetting.html
+* doc/menu/ListenerTuto.html
+* doc/menu/ListenerWifi.html
+* doc/menu/ListenerWireless.html
+* doc/menu/ListenerWrite.html
+* doc/menu/MainActivity.html
+* doc/menu/MenuTutoActivity.html
+* doc/menu/QuitListener.html
+* doc/menu/TutoActivity.html
+* doc/menu/class-use/
+* doc/menu/class-use/MainActivity.html
+* doc/menu/package-frame.html
+* doc/menu/package-summary.html
+* doc/menu/package-tree.html
+* doc/menu/package-use.html
+* doc/overview-frame.html
+* doc/overview-tree.html
+* doc/pack/
+* doc/pack/ChoixPack.html
+* doc/pack/LivrePack.html
+* doc/pack/PagePack.html
+* doc/pack/package-frame.html
+* doc/pack/package-summary.html
+* doc/pack/package-tree.html
+* doc/package-list
+* doc/resources/
+* doc/resources/inherit.gif
+* doc/serialized-form.html
+* doc/stylesheet.css
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src-bluetooth/ => app/src/main/java/
+* src-database/ => app/src/main/java/
+* src-ecrire/ => app/src/main/java/
+* src-lire/ => app/src/main/java/
+* src-menu/ => app/src/main/java/
+* src-param/ => app/src/main/java/
+* src-tuto/ => app/src/main/java/
+* src-wifi/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

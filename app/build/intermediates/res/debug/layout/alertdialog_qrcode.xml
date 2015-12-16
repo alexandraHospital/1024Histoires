@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/screen_tuto"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_weight="0.22"
+        android:src="@drawable/qr" />
+
+</LinearLayout>
+<!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/layout/alertdialog_qrcode.xml -->

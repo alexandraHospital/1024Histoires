@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="connected_devices">Appareils connectés</string>
+    <string name="button_scan">scan</string>
+    <string name="waiting_for_connection">Attente de connexion</string>
+    <string name="alert_dialog_info_title">Information</string>
+    <string name="alert_dialog_info">Voici la liste des téléphones auxquels vous êtes déjà connecté. Si le téléphone vers lequel vous voulez envoyer votre livre n\'est pas dans cette liste, vous devez aller dans les préférences du bluetooth du téléphone afin de vous appareiller à lui.</string>
+    <string name ="book_received">Vous avez reçu un livre !</string>
+	<string name = "book_sent">Livre envoyé !</string>
+	<string name="failure">Erreur pendant l\'envoi</string>
+	<string name="failure_ip">Erreur lors de l\'envoi</string>
+   	<string name="localIp">Votre adresse IP locale</string>
+   	<string name="sendbook">Envoyer un livre</string>
+   	<string name="send">Envoyer</string>
+   	<string name="sendby">Envoyer par</string>
+   	<string name="receiveby">Recevoir par</string>
+   	<string name="no_conenction">Vous n\'êtes pas connecté à internet</string>
+   		<string name="info">Information</string>
+   	
+   	
+    	<string name="instructionsend">Enter here the IP address of your friend</string>
+</resources>

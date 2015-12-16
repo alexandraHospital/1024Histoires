@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app.MenuCreationPages" >
+    
+    <item android:title="@string/ajouterUnePage" android:id="@+id/ajouterUnePage"></item>
+    <item android:title="@string/modifierPageCouverture" android:id="@+id/modifierPageCouverture"></item>
+    <item android:title="@string/supprimerLivre" android:id="@+id/supprimerLivre"></item>
+    <item android:title="@string/supprimerToutesLesPages" android:id="@+id/supprimerToutesLesPages"></item>
+    <item android:title="@string/menuPrincipal" android:id="@+id/menuPrincipal"></item>
+
+</menu>

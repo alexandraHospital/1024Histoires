@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_lire">LireActivity</string>
+    <string name="title_activity_menu_activity">Menu_activity</string>
+    <string name="title_couverture_activity">CouvertureActivity</string>
+    <string name="title_activity_list_pages">ListePagesActivity</string>
+    <string name="title_activity_creer_livre">CreerLivreActivity</string>
+    <string name="title_activity_edit_page">EditPageActivity</string>
+    <string name="title_activity_ecrire_list_livre">EcrireListLivre</string>
+    <string name="title_activity_ecoute_bluetooth">RecevoirLivreActivity</string>
+    <string name="title_activity_envois_livre">EnvoisLivreActivity</string>
+    <string name="title_activity_menu_tuto">MenuTutoActivity</string>
+     <string name="title_activity_tuto">TutoActivity</string>
+   
+
+</resources>

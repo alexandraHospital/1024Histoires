@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+     <ImageView
+         android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/linearLayout1"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:contentDescription="@string/img"
+         android:src="@drawable/titre" />
+     
+    <ImageView
+        android:id="@+id/ok_envois"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/img"
+        android:src="@drawable/lierre" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_lire"
+            style="@style/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+          	android:gravity="center"
+            android:text="@string/boutonMenu_lire" />
+
+        <Button
+            android:id="@+id/button_ecrire"
+            style="@style/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/boutonMenu_ecrire" />
+
+        <Button
+            android:id="@+id/button_bluetooth"
+            style="@style/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/boutonMenu_recevoir" />
+        
+         <Button
+             android:id="@+id/button_settings"
+             style="@style/button"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:text="@string/boutonMenu_param" />
+
+         <Button
+             android:id="@+id/button_tuto"
+             style="@style/button"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:text="@string/do_tuto" />
+
+    </LinearLayout>
+
+     <ImageButton
+         android:id="@+id/about"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/share"
+         android:layout_centerHorizontal="true"
+         android:background="@null"
+         android:src="@drawable/info" />
+
+     <ImageButton
+         android:id="@+id/share"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_marginBottom="15dp"
+         android:background="@null"
+         android:src="@drawable/share" />
+
+</RelativeLayout>

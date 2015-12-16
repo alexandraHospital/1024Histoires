@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radio_moyen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_old"
+    android:orientation="vertical"
+    tools:context="activites.PageActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@+id/enregistrerPage"
+            style="@style/boutonNormal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/enregistrerPage" />
+
+        <Button
+            android:id="@+id/ajouterNouveauChoix"
+            style="@style/boutonNormal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/ajouterChoix" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textePage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/remplirTextePage"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="9"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/objetPageAffiche"
+            style="@style/texteTitreImportant"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_weight="48"
+            android:text="@string/objetObtenu2" />
+
+        <TextView
+            android:id="@+id/objetPage"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_weight="27"
+            android:text="@string/ajouter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp" >
+
+        <ListView
+            android:id="@+id/lvListe2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/layout/activity_page.xml -->

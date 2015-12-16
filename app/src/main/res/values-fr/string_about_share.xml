@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="about_title">À propos</string>
+      <string name="legend_supervisor">Encadrant</string>
+      <string name="legend_dev_team">Équipe</string>
+      <string name="legend_for">Pour</string>
+</resources>

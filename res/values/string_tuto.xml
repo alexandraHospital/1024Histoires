@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tuto_suivant">Next</string>
+	<string name="tuto_precedent">Previous</string>
+    
+    <string name="tuto_read">Read</string>
+    <string name="tuto_write">Write</string>
+     <string name="tuto_sendbluetooth">Send Bluetooth</string>
+     <string name="tuto_sendwifi">Send Wifi</string>
+      <string name="tuto_receivebluetooth">Receive Bluetooth</string>
+     <string name="tuto_receivewifi">Receive Wifi</string>
+    <string name="tuto_quit">Quit</string>
+    
+</resources>

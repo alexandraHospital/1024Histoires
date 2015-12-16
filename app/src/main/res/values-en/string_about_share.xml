@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+      <string name="about_title">About</string>
+      <string name="legend_supervisor">Supervisor</string>
+      <string name="legend_dev_team">Team</string>
+      <string name="legend_for">for</string>
+</resources>

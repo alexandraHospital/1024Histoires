@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1024 Histoires</string>
+    <string name="tmp">temporary</string>
+    <string name="img">image</string>
+    
+    
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    
+    <string name="alert_return">Retour</string>
+    
+     <string name="title_share">Partage-moi !</string>
+      
+      
+     
+</resources>

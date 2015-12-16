@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_old2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pourTexteObjet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/texteTitreImportant"
+        android:text="@string/objetObtenu"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/texteObjet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/maxCaracteres20"
+        android:inputType="text"
+        style="@style/texteNormal"
+        android:paddingTop="20dp"
+        android:maxLength="50" />
+
+</LinearLayout>
+<!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/layout/ajouter_objet.xml -->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <string name="boutonMenu_lire">Lire</string>
+    <string name="boutonMenu_ecrire">Atelier</string>
+    <string name="boutonMenu_recevoir">Recevoir</string>
+    <string name="boutonMenu_param">Options</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_none">None</string>
+    <string name="item_amethyste">Amethyst</string>
+    <string name="item_ring">Ring</string>
+    <string name="item_camera">Camera</string>
+    <string name="item_bow">Bow</string>
+    <string name="item_shield">Shield</string>
+    <string name="item_map">Map</string>
+    <string name="item_cd">CD</string>
+    <string name="item_chocolate">Chocolate</string>
+    <string name="item_key">Key</string>
+    
+    <string name="item_usbkey">USB Key</string>
+    <string name="item_crown">Crown</string>
+    <string name="item_knife">Knife</string>
+    <string name="item_pencil">Pencil</string>
+    <string name="item_hdd">HDD</string>
+    <string name="item_diskette">Diskette</string>
+    <string name="item_documents">Documents</string>
+    <string name="item_bullet">Bullet</string>
+    <string name="item_sword">Sword</string>
+    <string name="item_strawberry">Strawberry</string>
+    
+    <string name="item_cheese">Cheese</string>
+    <string name="item_axe">Axe</string>
+    <string name="item_hamburger">Hamburger</string>
+    <string name="item_ham">Ham</string>
+    <string name="item_lamp">Lamp</string>
+    <string name="item_book">Book</string>
+    <string name="item_magnifyingglass">Magnifying glass</string>
+    <string name="item_glasses">Glasses</string>
+    <string name="item_lyre">Lyre</string>
+    <string name="item_mirror">Mirror</string>
+    
+    <string name="item_muffin">Muffin</string>
+    <string name="item_bread">Bread</string>
+    <string name="item_coins">Coins</string>
+   	<string name="item_gun">Gun</string>
+    <string name="item_pizza">Pizza</string>
+    <string name="item_magicpotion">Magic potion</string>
+    <string name="item_healthpotion">Health potion</string>
+    <string name="item_vigorpotion">Vigor potion</string>
+    <string name="item_poison">Poison</string>
+    <string name="item_rose">Rose</string>
+    
+    <string name="item_ruby">Ruby</string>
+    <string name="item_soda">Soda</string>
+    <string name="item_totem">Totem</string>
+    <string name="item_mobilephone">Mobile phone</string>
+    <string name="item_vinyl">Vinyl</string>
+    <string name="item_violin">Violin</string>
+    <string name="item_poele">Pan</string>
+    
+</resources>

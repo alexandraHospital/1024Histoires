@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radio_moyen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/page_old2"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/pourTexteChoix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/texteDansChoix"
+        style="@style/texteTitreImportant" />
+
+    <EditText
+        android:id="@+id/texteChoix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/maxCaracteres50"
+        style="@style/texteNormal"
+        android:inputType="textCapSentences"
+        android:selectAllOnFocus="true"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/pourObjetRequis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/objetRequis"
+        style="@style/texteTitreImportant" />
+
+    <TextView
+        android:id="@+id/objetRequis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ajouter"
+        style="@style/texteNormal"
+        android:maxLength="20" />
+    
+        
+    
+    <CheckBox android:id="@+id/objetSupprime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/objetSup"
+        style="@style/texteNormal"
+        android:onClick="onCheckboxClicked"/>
+    
+
+    <TextView
+        android:id="@+id/pourPageCible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/pageCible"
+        style="@style/texteTitreImportant" />
+    
+
+    <EditText
+        android:id="@+id/pageCible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/texteNormal"
+        android:inputType="number"
+        android:maxLength="5" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app.ListLivresActivity" >
+
+    
+    <item android:title="@string/supprimerTousLesLivres" android:id="@+id/supprimerLivres"></item>
+    
+</menu>
+<!-- From: file:/Volumes/HDD-WORK/Work%20Space/Android/Android%20-%201024%20Histoires/app/src/main/res/menu/livres.xml -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete">Supprimer</string>
+    <string name="page_count">Nombre de pages</string>
+    <string name="boutonCouv_lire">Lire</string>
+    <string name="boutonCouv_reprendre">Reprendre</string>
+    <string name="titre_mes_livres">Ma Bibliothèque</string>
+
+    <!-- Fenetre de dialog supprimer un objet -->
+    <string name="confirm_title">Confirmer</string>
+    <string name="confirm_message">Êtes-vous sûr(e) de vouloir supprimer cet objet ?</string>
+
+    <!-- Fenetre de dialog afficher les objets -->
+    <string name="list_objet_return">Retour</string>
+    <string name="list_objet_titre">Mon inventaire</string>
+    <string name="button_end">Fin</string>
+    <string name="full_inventory">Votre inventaire est plein, veuillez vous délester d\'au moins un objet pour continuer l\'aventure</string>
+    <string name="confirm_quit">Voulez-vous vraiment quitter ?</string>
+</resources>
